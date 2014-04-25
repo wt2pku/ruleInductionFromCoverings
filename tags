@@ -1,0 +1,192 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ATTRIBUTE	arff_token.h	/^    ATTRIBUTE,$/;"	e	enum:ArffTokenEnum
+ArffAttr	arff_attr.cpp	/^ArffAttr::ArffAttr(const std::string& name, ArffValueEnum type):$/;"	f	class:ArffAttr
+ArffAttr	arff_attr.h	/^class ArffAttr {$/;"	c
+ArffData	arff_data.cpp	/^ArffData::ArffData(): m_rel(""),$/;"	f	class:ArffData
+ArffData	arff_data.h	/^class ArffData {$/;"	c
+ArffDateFormat	arff_data.h	/^typedef std::map<std::string, std::string> ArffDateFormat;$/;"	t
+ArffInstance	arff_instance.cpp	/^ArffInstance::ArffInstance(): m_size(0), m_data() {$/;"	f	class:ArffInstance
+ArffInstance	arff_instance.h	/^class ArffInstance {$/;"	c
+ArffLexer	arff_lexer.cpp	/^ArffLexer::ArffLexer(const std::string& _file): m_scanner(NULL),$/;"	f	class:ArffLexer
+ArffLexer	arff_lexer.h	/^class ArffLexer {$/;"	c
+ArffNominal	arff_data.h	/^typedef std::vector<std::string> ArffNominal;$/;"	t
+ArffParser	arff_parser.cpp	/^ArffParser::ArffParser(const std::string& _file) : m_lexer(NULL),$/;"	f	class:ArffParser
+ArffParser	arff_parser.h	/^class ArffParser {$/;"	c
+ArffScanner	arff_scanner.cpp	/^ArffScanner::ArffScanner(const std::string& _file): m_file(_file),$/;"	f	class:ArffScanner
+ArffScanner	arff_scanner.h	/^class ArffScanner {$/;"	c
+ArffToken	arff_token.cpp	/^ArffToken::ArffToken(const ArffToken& _src) :$/;"	f	class:ArffToken
+ArffToken	arff_token.cpp	/^ArffToken::ArffToken(const std::string& _str, ArffTokenEnum _token) :$/;"	f	class:ArffToken
+ArffToken	arff_token.h	/^struct ArffToken {$/;"	s
+ArffTokenEnum	arff_token.h	/^enum ArffTokenEnum {$/;"	g
+ArffValue	arff_value.cpp	/^ArffValue::ArffValue(ArffValueEnum type) : m_int(0),$/;"	f	class:ArffValue
+ArffValue	arff_value.cpp	/^ArffValue::ArffValue(const ArffValue& src) : m_int(src.m_int),$/;"	f	class:ArffValue
+ArffValue	arff_value.cpp	/^ArffValue::ArffValue(const std::string& str, bool convert\/*=true*\/,$/;"	f	class:ArffValue
+ArffValue	arff_value.cpp	/^ArffValue::ArffValue(float f): m_int(0),$/;"	f	class:ArffValue
+ArffValue	arff_value.cpp	/^ArffValue::ArffValue(int32 i\/*=0*\/): m_int(i),$/;"	f	class:ArffValue
+ArffValue	arff_value.h	/^class ArffValue {$/;"	c
+ArffValueEnum	arff_value.h	/^enum ArffValueEnum {$/;"	g
+BRKT_CLOSE	arff_token.h	/^    BRKT_CLOSE,$/;"	e	enum:ArffTokenEnum
+BRKT_OPEN	arff_token.h	/^    BRKT_OPEN,$/;"	e	enum:ArffTokenEnum
+B_CLOSE	arff_lexer.cpp	/^const char ArffLexer::B_CLOSE = '}';$/;"	m	class:ArffLexer	file:
+B_CLOSE	arff_lexer.h	/^    static const char B_CLOSE;$/;"	m	class:ArffLexer
+B_OPEN	arff_lexer.cpp	/^const char ArffLexer::B_OPEN  = '{';$/;"	m	class:ArffLexer	file:
+B_OPEN	arff_lexer.h	/^    static const char B_OPEN;$/;"	m	class:ArffLexer
+COMMA	arff_lexer.cpp	/^const char ArffLexer::COMMA   = ',';$/;"	m	class:ArffLexer	file:
+COMMA	arff_lexer.h	/^    static const char COMMA;$/;"	m	class:ArffLexer
+COMMENT	arff_lexer.cpp	/^const char ArffLexer::COMMENT = '%';$/;"	m	class:ArffLexer	file:
+COMMENT	arff_lexer.h	/^    static const char COMMENT;$/;"	m	class:ArffLexer
+DATA_TOKEN	arff_token.h	/^    DATA_TOKEN,$/;"	e	enum:ArffTokenEnum
+DATE	arff_value.h	/^    DATE,$/;"	e	enum:ArffValueEnum
+DATE_TOKEN	arff_token.h	/^    DATE_TOKEN,$/;"	e	enum:ArffTokenEnum
+D_QUOTE	arff_lexer.cpp	/^const char ArffLexer::D_QUOTE = '"';$/;"	m	class:ArffLexer	file:
+D_QUOTE	arff_lexer.h	/^    static const char D_QUOTE;$/;"	m	class:ArffLexer
+END_OF_FILE	arff_token.h	/^    END_OF_FILE,$/;"	e	enum:ArffTokenEnum
+FLOAT	arff_value.h	/^    FLOAT,$/;"	e	enum:ArffValueEnum
+INTEGER	arff_value.h	/^    INTEGER = 0,$/;"	e	enum:ArffValueEnum
+MISS	arff_lexer.cpp	/^const char ArffLexer::MISS    = '?';$/;"	m	class:ArffLexer	file:
+MISS	arff_lexer.h	/^    static const char MISS;$/;"	m	class:ArffLexer
+MISSING_TOKEN	arff_token.h	/^    MISSING_TOKEN,$/;"	e	enum:ArffTokenEnum
+NEWLINE	arff_scanner.cpp	/^const char ArffScanner::NEWLINE = '\\n';$/;"	m	class:ArffScanner	file:
+NEWLINE	arff_scanner.h	/^    static const char NEWLINE;$/;"	m	class:ArffScanner
+NOMINAL	arff_value.h	/^    NOMINAL,$/;"	e	enum:ArffValueEnum
+NUMERIC	arff_value.h	/^    NUMERIC,$/;"	e	enum:ArffValueEnum
+NUMERIC_TOKEN	arff_token.h	/^    NUMERIC_TOKEN,$/;"	e	enum:ArffTokenEnum
+RELATION	arff_token.h	/^    RELATION = 0,$/;"	e	enum:ArffTokenEnum
+SPACE	arff_lexer.cpp	/^const char ArffLexer::SPACE   = ' ';$/;"	m	class:ArffLexer	file:
+SPACE	arff_lexer.h	/^    static const char SPACE;$/;"	m	class:ArffLexer
+STRING	arff_value.h	/^    STRING,$/;"	e	enum:ArffValueEnum
+STRING_TOKEN	arff_token.h	/^    STRING_TOKEN,$/;"	e	enum:ArffTokenEnum
+STR_LENGTH	arff_utils.cpp	20;"	d	file:
+STR_LENGTH	arff_utils.cpp	7;"	d	file:
+S_QUOTE	arff_lexer.cpp	/^const char ArffLexer::S_QUOTE = '\\'';$/;"	m	class:ArffLexer	file:
+S_QUOTE	arff_lexer.h	/^    static const char S_QUOTE;$/;"	m	class:ArffLexer
+TAB	arff_lexer.cpp	/^const char ArffLexer::TAB     = '\\t';$/;"	m	class:ArffLexer	file:
+TAB	arff_lexer.h	/^    static const char TAB;$/;"	m	class:ArffLexer
+THROW	arff_utils.h	30;"	d
+UNKNOWN_TOKEN	arff_token.h	/^    UNKNOWN_TOKEN,$/;"	e	enum:ArffTokenEnum
+UNKNOWN_VAL	arff_value.h	/^    UNKNOWN_VAL,$/;"	e	enum:ArffValueEnum
+VALUE_TOKEN	arff_token.h	/^    VALUE_TOKEN,$/;"	e	enum:ArffTokenEnum
+__INCLUDED_ARFF_ATTR_H__	arff_attr.h	2;"	d
+__INCLUDED_ARFF_DATA_H__	arff_data.h	2;"	d
+__INCLUDED_ARFF_INSTANCE_H__	arff_instance.h	2;"	d
+__INCLUDED_ARFF_LEXER_H__	arff_lexer.h	2;"	d
+__INCLUDED_ARFF_PARSER_H__	arff_parser.h	2;"	d
+__INCLUDED_ARFF_SCANNER_H__	arff_scanner.h	2;"	d
+__INCLUDED_ARFF_TOKEN_H__	arff_token.h	2;"	d
+__INCLUDED_ARFF_UTILS_H__	arff_utils.h	2;"	d
+__INCLUDED_ARFF_VALUE_H__	arff_value.h	2;"	d
+_cross_check_instance	arff_data.cpp	/^void ArffData::_cross_check_instance(ArffInstance* inst) {$/;"	f	class:ArffData
+_is_bracket_close	arff_lexer.cpp	/^bool ArffLexer::_is_bracket_close(char c) const {$/;"	f	class:ArffLexer
+_is_bracket_open	arff_lexer.cpp	/^bool ArffLexer::_is_bracket_open(char c) const {$/;"	f	class:ArffLexer
+_is_comma	arff_lexer.cpp	/^bool ArffLexer::_is_comma(char c) const {$/;"	f	class:ArffLexer
+_is_comment	arff_lexer.cpp	/^bool ArffLexer::_is_comment(char c) const {$/;"	f	class:ArffLexer
+_is_d_quote	arff_lexer.cpp	/^bool ArffLexer::_is_d_quote(char c) const {$/;"	f	class:ArffLexer
+_is_missing	arff_lexer.cpp	/^bool ArffLexer::_is_missing(char c) const {$/;"	f	class:ArffLexer
+_is_s_quote	arff_lexer.cpp	/^bool ArffLexer::_is_s_quote(char c) const {$/;"	f	class:ArffLexer
+_is_space	arff_lexer.cpp	/^bool ArffLexer::_is_space(char c) const {$/;"	f	class:ArffLexer
+_read_attr	arff_parser.cpp	/^void ArffParser::_read_attr() {$/;"	f	class:ArffParser
+_read_attrs	arff_parser.cpp	/^void ArffParser::_read_attrs() {$/;"	f	class:ArffParser
+_read_instances	arff_parser.cpp	/^void ArffParser::_read_instances() {$/;"	f	class:ArffParser
+_read_relation	arff_parser.cpp	/^void ArffParser::_read_relation() {$/;"	f	class:ArffParser
+_read_str	arff_lexer.cpp	/^std::string ArffLexer::_read_str() {$/;"	f	class:ArffLexer
+_skip_comments	arff_lexer.cpp	/^bool ArffLexer::_skip_comments() {$/;"	f	class:ArffLexer
+_skip_spaces	arff_lexer.cpp	/^void ArffLexer::_skip_spaces() {$/;"	f	class:ArffLexer
+add	arff_instance.cpp	/^void ArffInstance::add(ArffValue* val) {$/;"	f	class:ArffInstance
+add_attr	arff_data.cpp	/^void ArffData::add_attr(ArffAttr* attr) {$/;"	f	class:ArffData
+add_date_format	arff_data.cpp	/^void ArffData::add_date_format(const std::string& name,$/;"	f	class:ArffData
+add_instance	arff_data.cpp	/^void ArffData::add_instance(ArffInstance* inst) {$/;"	f	class:ArffData
+add_nominal_val	arff_data.cpp	/^void ArffData::add_nominal_val(const std::string& name,$/;"	f	class:ArffData
+arff_token2str	arff_token.cpp	/^std::string arff_token2str(ArffTokenEnum type) {$/;"	f
+arff_value2str	arff_value.cpp	/^std::string arff_value2str(ArffValueEnum e) {$/;"	f
+column	arff_scanner.cpp	/^int64 ArffScanner::column() const {$/;"	f	class:ArffScanner
+current	arff_scanner.cpp	/^char ArffScanner::current() const {$/;"	f	class:ArffScanner
+eof	arff_scanner.cpp	/^bool ArffScanner::eof() const {$/;"	f	class:ArffScanner
+err_msg	arff_scanner.cpp	/^std::string ArffScanner::err_msg(const std::string& msg) const {$/;"	f	class:ArffScanner
+get	arff_instance.cpp	/^ArffValue* ArffInstance::get(int idx) const {$/;"	f	class:ArffInstance
+get_attr	arff_data.cpp	/^ArffAttr* ArffData::get_attr(int32 idx) const {$/;"	f	class:ArffData
+get_date_format	arff_data.cpp	/^std::string ArffData::get_date_format(const std::string& name) {$/;"	f	class:ArffData
+get_instance	arff_data.cpp	/^ArffInstance* ArffData::get_instance(int32 idx) const {$/;"	f	class:ArffData
+get_nominal	arff_data.cpp	/^ArffNominal ArffData::get_nominal(const std::string& name) {$/;"	f	class:ArffData
+get_relation_name	arff_data.cpp	/^std::string ArffData::get_relation_name() const {$/;"	f	class:ArffData
+icompare	arff_utils.cpp	/^bool icompare(const std::string& str, const std::string& ref) {$/;"	f
+int32	arff_utils.h	/^typedef long int int32;$/;"	t
+int64	arff_utils.h	/^typedef long long int64;$/;"	t
+is_newline	arff_scanner.cpp	/^bool ArffScanner::is_newline(char c) const {$/;"	f	class:ArffScanner
+line	arff_scanner.cpp	/^int64 ArffScanner::line() const {$/;"	f	class:ArffScanner
+m_attrs	arff_data.h	/^    std::vector<ArffAttr*> m_attrs;$/;"	m	class:ArffData
+m_b_close	arff_lexer.h	/^    bool m_b_close;$/;"	m	class:ArffLexer
+m_char	arff_scanner.h	/^    char m_char;$/;"	m	class:ArffScanner
+m_col	arff_scanner.h	/^    int64 m_col;$/;"	m	class:ArffScanner
+m_data	arff_instance.h	/^    std::vector<ArffValue*> m_data;$/;"	m	class:ArffInstance
+m_data	arff_parser.h	/^    ArffData* m_data;$/;"	m	class:ArffParser
+m_enum	arff_attr.h	/^    ArffValueEnum m_enum;$/;"	m	class:ArffAttr
+m_enum	arff_token.h	/^    ArffTokenEnum m_enum;$/;"	m	struct:ArffToken
+m_file	arff_scanner.h	/^    std::string m_file;$/;"	m	class:ArffScanner
+m_float	arff_value.h	/^    float m_float;$/;"	m	class:ArffValue
+m_formats	arff_data.h	/^    ArffDateFormat m_formats;$/;"	m	class:ArffData
+m_fp	arff_scanner.h	/^    FILE* m_fp;$/;"	m	class:ArffScanner
+m_instances	arff_data.h	/^    std::vector<ArffInstance*> m_instances;$/;"	m	class:ArffData
+m_int	arff_value.h	/^    int32 m_int;$/;"	m	class:ArffValue
+m_lexer	arff_parser.h	/^    ArffLexer* m_lexer;$/;"	m	class:ArffParser
+m_line	arff_scanner.h	/^    int64 m_line;$/;"	m	class:ArffScanner
+m_missing	arff_value.h	/^    bool m_missing;$/;"	m	class:ArffValue
+m_name	arff_attr.h	/^    std::string m_name;$/;"	m	class:ArffAttr
+m_nominals	arff_data.h	/^    std::map<std::string, ArffNominal > m_nominals;$/;"	m	class:ArffData
+m_num_attrs	arff_data.h	/^    int32 m_num_attrs;$/;"	m	class:ArffData
+m_num_instances	arff_data.h	/^    int32 m_num_instances;$/;"	m	class:ArffData
+m_parsed	arff_parser.h	/^    bool m_parsed;$/;"	m	class:ArffParser
+m_prev_char	arff_scanner.h	/^    char m_prev_char;$/;"	m	class:ArffScanner
+m_rel	arff_data.h	/^    std::string m_rel;$/;"	m	class:ArffData
+m_scanner	arff_lexer.h	/^    ArffScanner* m_scanner;$/;"	m	class:ArffLexer
+m_size	arff_instance.h	/^    int32 m_size;$/;"	m	class:ArffInstance
+m_str	arff_token.h	/^    std::string m_str;$/;"	m	struct:ArffToken
+m_str	arff_value.h	/^    std::string m_str;$/;"	m	class:ArffValue
+m_type	arff_value.h	/^    ArffValueEnum m_type;$/;"	m	class:ArffValue
+missing	arff_value.cpp	/^bool ArffValue::missing() const {$/;"	f	class:ArffValue
+name	arff_attr.cpp	/^std::string ArffAttr::name() const {$/;"	f	class:ArffAttr
+next	arff_scanner.cpp	/^char ArffScanner::next() {$/;"	f	class:ArffScanner
+next_token	arff_lexer.cpp	/^ArffToken ArffLexer::next_token() {$/;"	f	class:ArffLexer
+num2str	arff_utils.h	/^std::string num2str(T num) {$/;"	f
+num_attributes	arff_data.cpp	/^int32 ArffData::num_attributes() const {$/;"	f	class:ArffData
+num_instances	arff_data.cpp	/^int32 ArffData::num_instances() const {$/;"	f	class:ArffData
+operator ==	arff_value.cpp	/^bool ArffValue::operator ==(const ArffValue& right) const {$/;"	f	class:ArffValue
+operator ==	arff_value.cpp	/^bool ArffValue::operator ==(const std::string& right) const {$/;"	f	class:ArffValue
+operator ==	arff_value.cpp	/^bool ArffValue::operator ==(float right) const {$/;"	f	class:ArffValue
+operator ==	arff_value.cpp	/^bool ArffValue::operator ==(int32 right) const {$/;"	f	class:ArffValue
+operator ==	arff_value.cpp	/^bool operator ==(const std::string& left, const ArffValue& right) {$/;"	f
+operator ==	arff_value.cpp	/^bool operator ==(float left, const ArffValue& right) {$/;"	f
+operator ==	arff_value.cpp	/^bool operator ==(int32 left, const ArffValue& right) {$/;"	f
+operator float	arff_value.cpp	/^ArffValue::operator float() const {$/;"	f	class:ArffValue
+operator int32	arff_value.cpp	/^ArffValue::operator int32() const {$/;"	f	class:ArffValue
+operator std::string	arff_value.cpp	/^ArffValue::operator std::string() const {$/;"	f	class:ArffValue
+parse	arff_parser.cpp	/^ArffData* ArffParser::parse() {$/;"	f	class:ArffParser
+previous	arff_scanner.cpp	/^char ArffScanner::previous() const {$/;"	f	class:ArffScanner
+set	arff_value.cpp	/^void ArffValue::set(const std::string& str, ArffValueEnum e\/*=STRING*\/) {$/;"	f	class:ArffValue
+set	arff_value.cpp	/^void ArffValue::set(float f) {$/;"	f	class:ArffValue
+set	arff_value.cpp	/^void ArffValue::set(int32 i) {$/;"	f	class:ArffValue
+set_relation_name	arff_data.cpp	/^void ArffData::set_relation_name(const std::string& name) {$/;"	f	class:ArffData
+size	arff_instance.cpp	/^int32 ArffInstance::size() const {$/;"	f	class:ArffInstance
+str2num	arff_utils.h	/^void str2num(const std::string& str, T& num) {$/;"	f
+throw_ex	arff_utils.cpp	/^void throw_ex(const char* file, int64 line, const char* fmt, ...) {$/;"	f
+to_lower	arff_utils.cpp	/^char to_lower(char c) {$/;"	f
+token_double	arff_token.cpp	/^double ArffToken::token_double() const {$/;"	f	class:ArffToken
+token_enum	arff_token.cpp	/^ArffTokenEnum ArffToken::token_enum() const {$/;"	f	class:ArffToken
+token_float	arff_token.cpp	/^float ArffToken::token_float() const {$/;"	f	class:ArffToken
+token_int32	arff_token.cpp	/^int32 ArffToken::token_int32() const {$/;"	f	class:ArffToken
+token_int64	arff_token.cpp	/^int64 ArffToken::token_int64() const {$/;"	f	class:ArffToken
+token_str	arff_token.cpp	/^std::string ArffToken::token_str() const {$/;"	f	class:ArffToken
+type	arff_attr.cpp	/^ArffValueEnum ArffAttr::type() const {$/;"	f	class:ArffAttr
+type	arff_value.cpp	/^ArffValueEnum ArffValue::type() const {$/;"	f	class:ArffValue
+~ArffAttr	arff_attr.cpp	/^ArffAttr::~ArffAttr() {$/;"	f	class:ArffAttr
+~ArffData	arff_data.cpp	/^ArffData::~ArffData() {$/;"	f	class:ArffData
+~ArffInstance	arff_instance.cpp	/^ArffInstance::~ArffInstance() {$/;"	f	class:ArffInstance
+~ArffLexer	arff_lexer.cpp	/^ArffLexer::~ArffLexer() {$/;"	f	class:ArffLexer
+~ArffParser	arff_parser.cpp	/^ArffParser::~ArffParser() {$/;"	f	class:ArffParser
+~ArffScanner	arff_scanner.cpp	/^ArffScanner::~ArffScanner() {$/;"	f	class:ArffScanner
+~ArffToken	arff_token.cpp	/^ArffToken::~ArffToken() {$/;"	f	class:ArffToken
+~ArffValue	arff_value.cpp	/^ArffValue::~ArffValue() {$/;"	f	class:ArffValue
